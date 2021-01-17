@@ -1,0 +1,40 @@
+<div class="sidenav">
+         <div class="left-text">
+            <h2>File Yönetim Uygulaması</h2>
+            <p>Kayıt Olarak 5MB dosya yükleme hakkına sahip olabilirsin</p>
+         </div>
+      </div>
+
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+              <div class="logo">
+                M
+              </div>
+               <form #frm="ngForm" (ngSubmit)="Register()">
+                 <div class="form-group">
+                     <label>Username</label>
+                     <input type="text" class="form-control" placeholder="Username" [(ngModel)]="User.username">
+                  </div>
+                  <div class="form-group">
+                     <label>E-mail</label>
+                     <input type="email" class="form-control" placeholder="Email" [(ngModel)]="User.mail" required>
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" class="form-control" placeholder="Password" name="parola"  [(ngModel)]="User.password" required>
+                  </div>
+                 <div class="form-group">
+                     <label>File Size LIMIT [5MB]</label>
+                     <input type="text" class="form-control" placeholder="5120" name="maxfilesize" [(ngModel)]="User.maxfilesize" disabled>
+                  </div>
+                 <input type="submit" class="btn btn lg btn-secondary" value="Kayıt Ol">
+               </form>
+              <pre></pre>
+              <button  class="btn btn-lg btn-black" [routerLink]="['/login']">Giriş Yap</button>
+            </div>
+         </div>
+      </div>
+
+
+
