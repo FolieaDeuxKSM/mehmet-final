@@ -3,6 +3,14 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.13.
 
 ## Development server
+Configuration
+Firstly, open your CLI or PowerShell(Windows) and then go to project folder with cd "Exact-project-path" command.
+After that , run these commands define below in order
+npm i
+npm install -g @angular/cli@9.1.13
+npm install bootstrap
+npm install ngx-toastr --save
+npm install @angular/animations --save
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
