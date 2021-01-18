@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.13.
 
 ## Development server
-Configuration
+<br> Configuration
 Firstly, open your CLI or PowerShell(Windows) and then go to project folder with cd "Exact-project-path" command.
 After that , run these commands define below in order
 npm i
